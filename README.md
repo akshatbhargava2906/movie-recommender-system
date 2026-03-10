@@ -18,21 +18,6 @@ A scalable, end-to-end movie recommendation system built on the **MovieLens data
 
 ---
 
-## Architecture
-
-Google Cloud Storage (GCS)
-        │
-        ▼
-  Dataproc Cluster (Spark)
-        │
-        ├── Data Preprocessing & EDA
-        ├── ALS Model Training & Evaluation
-        ├── Hyperparameter Tuning
-        ├── K-Means Clustering (Users + Movies)
-        └── Recommendation Generation
-
----
-
 ## Features
 
 - **Collaborative Filtering** via ALS matrix factorization on 20M+ ratings
